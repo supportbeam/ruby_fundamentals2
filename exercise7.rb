@@ -16,3 +16,5 @@ cohorts(students)
 # Added another key-value pair
 students[:cohort4] = 43
 
+# outputs all the cohort names with the keys method
+puts students.keys
