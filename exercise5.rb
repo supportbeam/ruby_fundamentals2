@@ -6,4 +6,4 @@ def to_celcius(f)
 	puts "The tempature is #{c} degrees celcius."
 end
 
-puts to_celcius(fahrenheit)
+to_celcius(fahrenheit)
