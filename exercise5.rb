@@ -2,8 +2,7 @@ puts "Please enter a temperature in fahrenheit:"
 fahrenheit = gets.chomp.to_i
 
 def to_celcius(f)
-	c = (f - 32) * 5/9
-	puts "The tempature is #{c} degrees celcius."
+	(f - 32) * 5/9
 end
 
-to_celcius(fahrenheit)
+puts "The tempature is #{to_celcius(fahrenheit)} degrees celcius."
