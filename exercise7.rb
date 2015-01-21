@@ -27,3 +27,15 @@ students.each do |key, value|
 # display the new results
 cohorts(students)
 
+# delete the 2nd cohort
+students.delete(:cohort2)
+
+#redisplay cohorts
+cohorts(students)
+
+#Calculate total amount of students in all cochorts
+total = 0
+students.each do |key, value|
+	total +=  value 
+end
+puts total
